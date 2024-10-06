@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './pages/components/header.jsx';
-import Hero from './pages/components/hero.jsx';
-import Product from './pages/components/produto.jsx';
+import Header from '../components/header.jsx';
+import Hero from '../components/hero.jsx';
+import Product from '../components/produto.jsx';
 import './index.scss';
 
 function App() {

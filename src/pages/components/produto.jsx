@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <section className="product">
       <div className="product-info">
-        <img src="person.jpg" alt="Pessoa com pacotes" />
+        <img src="imagem.png" alt="Pessoa com pacotes" />
       </div>
       <div className="description">
         <h2>Tudo para deixar o seu site com sua cara</h2>
