@@ -14,3 +14,34 @@
     text-align: center;
   }
   
+  .container {
+    background-color: rgb(22, 48, 67);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 1px;
+  }
+
+  .titulo {
+    font-size: 25px;
+  }
+  
+  .meios-contato, .info, .outros {
+    text-align: center;
+  }
+  
+  .meios-contato p, .info p, .outros p {
+    margin: 10px 0;
+  }
+
+  
+  .whatsapp {
+    height: 20px;
+  }
+
+  .telefone {
+    height: 20px;
+  }
+
+  .instagram {
+    height: 20px;
+  }

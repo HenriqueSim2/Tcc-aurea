@@ -6,10 +6,6 @@ const Product = () => {
     <section className="product">
       <div className="product-info">
         <img src="person.jpg" alt="Pessoa com pacotes" />
-        <div className="product-details">
-          <p>R$450,00</p>
-          <a href="#" className="button-compre">COMPRE SEU SITE JÁ</a>
-        </div>
       </div>
       <div className="description">
         <h2>Tudo para deixar o seu site com sua cara</h2>

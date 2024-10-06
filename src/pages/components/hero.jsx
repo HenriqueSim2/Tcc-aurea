@@ -13,6 +13,7 @@ const Hero = () => {
         <button>RESTAURANTE</button>
         <button>OUTROS</button>
       </div>
+      <a href="#" className="button-compre">COMPRE JÁ</a>
     </section>
   );
 };
