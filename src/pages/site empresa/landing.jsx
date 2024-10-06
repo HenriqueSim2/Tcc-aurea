@@ -74,6 +74,30 @@ function App() {
 </div>
 </div>
 
+
+
+
+    <h3 >PRODUTOS</h3>
+       <div className='produtos0'>
+       <div className='produtos'>
+              <div><img className='imgprodutos' src="imgrestaurante.webp" alt="restaurante" />
+              <p className='textof'>site de restaurante</p></div>
+              <div><img className='imgprodutos' src="portfolio2.webp" alt="" />
+              <p className='textof'>portfolio pessoal</p>
+              </div>
+              <div><img className='imgprodutos' src="lojaonline.png" alt="" /><p className='textof'>
+                     loja online</p></div>
+
+
+       </div>
+              <div className='fds' ><p className='textoprodutos'>Todos esses sites foram <br />
+feitos por nossos programadores <br />
+profissionais com mais de 10 anos <br />
+de experiencia em informatica</p></div>
+
+                     </div>
+
+
 </div>
 
   );
