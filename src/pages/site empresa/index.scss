@@ -12,6 +12,8 @@
   
   .App {
     text-align: center;
+  
+    
   }
   
   .container {
@@ -45,3 +47,73 @@
   .instagram {
     height: 20px;
   }
+
+
+  .preços{
+    display: flex;
+    flex-direction: row;
+    
+top: 30px;
+
+  }
+
+  .ds{
+margin-top: 40px;
+
+  }
+
+  .precos{
+
+align-items: center;
+background-color: rgb(96,111,125);
+border-radius: 30px;
+height: 150px;
+width: 200px;
+margin-left: 530px;
+
+  }
+  .precos2{
+    
+    align-items: center;
+    background-color: rgb(96,111,125);
+    border-radius: 30px;
+    height: 150px;
+    width: 200px;
+    margin-left: 40px;
+    
+      }
+    
+
+  .texto{
+    display: flex ;
+    padding:12px ;
+    margin-left:32px ;
+font-size:x-large;
+  }
+
+  .button1{
+background-color: rgb(18,50,217);
+border-radius: 20px;
+margin-top: 20px;
+height: 40px;
+
+  }
+
+  .cardspart1{
+flex-direction:row ;
+display: flex;
+align-items: center;
+margin-top: 20px;
+
+  }
+  
+  .cardspart2{
+    flex-direction:row ;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    
+      }
+
+
+   

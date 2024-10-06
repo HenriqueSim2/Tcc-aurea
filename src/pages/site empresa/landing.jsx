@@ -12,17 +12,67 @@ function App() {
       <Product />
 
 
-    <div className='preços'> 
-       <h1>PREÇOS</h1>
+       <h2 className='ds'>PREÇOS</h2>
+
+       <div className='cardscompleto'>
+<div className='cardspart1'>
+
+
+    <div className='precos'> 
        <div className='cards'>
-       <div><p>`loja online
+       <div><p className='texto'>loja online  
+              <br />
                R$***,**
-        `</p></div>
+               
+        </p>
+        <button className='button1'>entre em contato</button>
+        </div>
 
 
 
        </div>
     </div>
+ <div className='precos2'> 
+       <div className='cards'>
+       <div><p className='texto'>loja online  
+              <br />
+               R$***,**
+               
+        </p>
+        <button className='button1'>entre em contato</button>
+        </div>
+        </div>
+       </div>
+    </div>
+
+<div className='cardspart2'>
+<div className='precos'> 
+       <div className='cards'>
+       <div><p className='texto'>loja online  
+              <br />
+               R$***,**
+               
+        </p>
+        <button className='button1'>entre em contato</button>
+        </div>
+
+
+
+       </div>
+    </div>
+ <div className='precos2'> 
+       <div className='cards'>
+       <div><p className='texto'>loja online  
+              <br />
+               R$***,**
+               
+        </p>
+        <button className='button1'>entre em contato</button>
+        </div>
+        </div>
+       </div>
+</div>
+</div>
 
 </div>
 
