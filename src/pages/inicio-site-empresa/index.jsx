@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.scss'
-import App from '../../App';
+import App from '../../app.js';
 
 import { Link } from 'react-router-dom';
 

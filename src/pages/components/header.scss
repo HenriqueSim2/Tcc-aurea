@@ -1,0 +1,27 @@
+header {
+    nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #1b1e2f;
+    }
+  
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      img {
+        height: 100px;
+        padding: 10px 865px;
+      }
+    }
+  
+    .menu-icon {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  
