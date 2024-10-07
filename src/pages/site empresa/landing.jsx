@@ -96,8 +96,16 @@ profissionais com mais de 10 anos <br />
 de experiencia em informatica</p></div>
 
                      </div>
+              <div className='reviews'>
+                     <h1>Reviews</h1>
+                     <p>Essas são algumas das <br/> nossas reviews no <br />reclame aqui </p>
+
+                     
 
 
+
+              </div>
+       
 </div>
 
   );
