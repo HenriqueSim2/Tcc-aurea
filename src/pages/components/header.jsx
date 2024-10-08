@@ -9,7 +9,7 @@ const Header = () => {
             <span>☰</span>
             </div>
             <div className="logo">
-            <img src="download.png" alt="Tech.Inf" />
+            <img src="" alt="Tech.Inf" />
             </div>
         </nav>
         </header>

@@ -100,12 +100,24 @@ de experiencia em informatica</p></div>
                      <h1>Reviews</h1>
                      <p>Essas são algumas das <br/> nossas reviews no <br />reclame aqui </p>
 
-                     
-
-
-
-              </div>
+              </div> <br /><br /><br />
+       <div className='sobre'><h1>Tudo sobre nos</h1>
        
+       <div className='texto1'><h3>
+              "Transforme suas ideias em uma presença digital com a info tech: designs inovadores e suporte contínuo."</h3>
+       <img src="pinto.png" alt="" />
+
+       </div>
+       <div className='textop' ><p className='textops'>
+A info tech cria sites personalizados com design inovador e responsivo, otimizados para motores de busca. Oferecemos suporte contínuo para garantir uma presença online impactante. Transforme suas ideias em realidade com a info tech.</p></div>
+
+       
+       </div>
+
+
+
+
+
 </div>
 
   );
