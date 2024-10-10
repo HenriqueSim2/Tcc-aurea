@@ -127,15 +127,16 @@ function App() {
 
 
                      </div> <br /><br /><br />
-                     <div className='sobre'><h1>Tudo sobre nos</h1>
+                     <div className='sobre'><h1 className='tudo'>Tudo sobre nos</h1><br /><br />
 
                             <div className='texto1'><h3>
                                    "Transforme suas ideias em uma presença digital com a info tech: designs inovadores e suporte contínuo."</h3>
-                                   <img src="pinto.png" alt="" />
+                                   <img className='imgg' src="th.webp" alt="img" />
 
                             </div>
                             <div className='textop' ><p className='textops'>
-                                   A info tech cria sites personalizados com design inovador e responsivo, otimizados para motores de busca. Oferecemos suporte contínuo para garantir uma presença online impactante. Transforme suas ideias em realidade com a info tech.</p></div>
+                                   A info tech cria sites personalizados com <br /> design  inovador e responsivo,  otimizados para 
+                                   <br />motores de busca. Oferecemos suporte contínuo para <br /> garantir uma presença online impactante. <br /> Transforme suas ideias em realidade com a info tech.</p></div>
 
 
                      </div>

@@ -185,16 +185,17 @@ padding: 40px;
 }
  }
  .textop{
+ margin-left: 180px;
   background-color: #163043 ;
-width: 1000px;
-height: 400px;
-margin-left: 150px;
+width: 900px;
+height: 250px;
 margin-top: 90px;
 border-radius: 60px;
+
 }
 
 .textops{
-  font-size: xxx-large;
+  font-size: xx-large;
   padding: 40px;
     }
   
@@ -243,4 +244,14 @@ border-radius: 60px;
 }
 .review-icon {
   font-size: 2em;
+}
+.tudo{
+ font-size: 80px;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+ 
+}
+.imgg{
+  height: 200px;
+  width: 880px;
+  border-radius: 30px;
 }
