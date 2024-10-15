@@ -11,15 +11,13 @@ function App() {
                      <Hero />
                      <Product />
 
-                     <br /><br /><br /><br /><br /><br />
+                     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
                      <h2 className='ds'>PREÇOS</h2>
 
                      <div className='cardscompleto'>
                             <div className='cardspart1'>
-
-
-                                   <div className='precos'>
+                <div className='precos'>
                                           <div className='cards'>
                                                  <div><p className='texto'>loja online
                                                         <br />
@@ -28,9 +26,6 @@ function App() {
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
                                                  </div>
-
-
-
                                           </div>
                                    </div>
                                    <div className='precos2'>
@@ -45,7 +40,6 @@ function App() {
                                           </div>
                                    </div>
                             </div>
-
                             <div className='cardspart2'>
                                    <div className='precos'>
                                           <div className='cards'>
@@ -77,7 +71,7 @@ function App() {
 
                      <br /><br /><br /><br /><br /><br />
 
-                     <h3 >PRODUTOS</h3>
+                     <h2 >PRODUTOS</h2>
                      <div className='produtos0'>
                             <div className='produtos'>
                                    <div><img className='imgprodutos' src="imgrestaurante.webp" alt="restaurante" />
@@ -100,27 +94,27 @@ function App() {
                      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                      <div className='reviews'>
                             <h1>Reviews</h1>
-                            <p>Essas são algumas das <br /> nossas reviews no <br />reclame aqui </p>
+                            <p>Essas são algumas das <br /> nossas reviews de <br />clientes satisfeitos</p>
 
                             <div className="reviews-section">
                                   
                                    <div className="reviews-container">
                                           <div className="review">
-                                                 <h2>Felipe</h2>
-                                                 <div className="stars">★★★★★</div>
-                                                 <p>Esses caras são incríveis, fizeram meu site por um preço acessível e em menos de 3 meses!</p>
+                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" />  Felipe</h2>
+                                                 <h3 className="stars">★★★★★</h3>
+                                                 <p className='textoreview'>Esses caras são incríveis, fizeram meu site por um preço acessível e em menos de 3 meses!</p>
                                           </div>
 
                                           <div className="review">
-                                                 <h2>Matheus</h2>
-                                                 <div className="stars">★★★★★</div>
-                                                 <p>Melhor empresa já feita, os caras conseguem entregar um produto muito maior que a expectativa e rápido ainda!</p>
+                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" />  Matheus</h2>
+                                                 <h3 className="stars">★★★★★</h3>
+                                                 <p className='textoreview'>Melhor empresa já feita, os caras conseguem entregar um produto muito maior que a expectativa e rápido ainda!</p>
                                           </div>
 
                                           <div className="review">
-                                                 <h2>Henrique</h2>
-                                                 <div className="stars">★★★★★</div>
-                                                 <p>Meu site deu uma demorada, porém quando chegou foi a coisa mais bonita que eu já vi na minha vida!</p>
+                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" /> Henrique</h2>
+                                                 <h3 className="stars">★★★★★</h3>
+                                                 <p className='textoreview'>Meu site deu uma demorada, porém quando chegou foi a coisa mais bonita que eu já vi na minha vida!</p>
                                           </div>
                                    </div>
                             </div>

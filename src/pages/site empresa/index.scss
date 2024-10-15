@@ -49,13 +49,6 @@
   }
 
 
-  .preços{
-    display: flex;
-    flex-direction: row;
-    
-top: 30px;
-
-  }
 
   .ds{
 margin-top: 40px;
@@ -64,17 +57,15 @@ margin-top: 40px;
 
   .precos{
 
-align-items: center;
 background-color: rgb(96,111,125);
 border-radius: 30px;
 height: 150px;
 width: 200px;
-margin-left: 530px;
+margin-left: 420px;
 
   }
   .precos2{
     
-    align-items: center;
     background-color: rgb(96,111,125);
     border-radius: 30px;
     height: 150px;
@@ -95,26 +86,29 @@ font-size:x-large;
 background-color: rgb(18,50,217);
 border-radius: 20px;
 margin-top: 20px;
+color: white;
+width: 120px;
 height: 40px;
 
   }
 
+  .cardscompleto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+  }
 
   .cardspart1{
-flex-direction:row ;
-display: flex;
-align-items: center;
-margin-top: 20px;
-
+  flex-direction:row ;
+  display: flex;
+  margin-top: 20px;
   }
   
-  .cardspart2{
+.cardspart2{
     flex-direction:row ;
     display: flex;
-    align-items: center;
-    padding: 20px 0px;
-    
-      }
+    padding: 60px 0px;
+  }
     
 
    .texto2{
@@ -146,9 +140,12 @@ font-size: xx-large;
   .textoprodutos{
 font-size: 50px;
 padding: 80px;
-
-
   }
+
+.pessoa {
+  width: 30px;
+}
+
 
   .fds{
     background-color: #163043 ;
@@ -159,8 +156,8 @@ margin-top: 90px;
 border-radius: 60px;
   }
 
-  h3{
-font-size: xx-large;
+  h2{
+font-size: 36px;
 padding: 40px;
   }
 
@@ -232,19 +229,19 @@ border-radius: 60px;
   text-align: left;
 }
 .review h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 20px;
 }
 .stars {
   color: gold;
-  margin-bottom: 15px;
+  justify-content: space-between;
+  text-align: center;
 }
 .review p {
-  font-size: 1em;
-  color: #d1d1d1;
-}
-.review-icon {
-  font-size: 2em;
+  font-size: 17px;
+  color: black;
+  background-color: rgb(155, 176, 192);
+  border-radius: 10px;
+  text-align: center;
 }
 .tudo{
  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
