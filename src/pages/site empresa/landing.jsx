@@ -11,7 +11,7 @@ function App() {
                      <Hero />
                      <Product />
 
-                     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                     <br /><br /><br /><br /><br /><br /><br /><br />
 
                      <h2 className='ds'>PREÇOS</h2>
 
@@ -93,7 +93,7 @@ function App() {
 
                      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                      <div className='reviews'>
-                            <h1>Reviews</h1>
+                            <h1>Reviews</h1><br />
                             <p>Essas são algumas das <br /> nossas reviews de <br />clientes satisfeitos</p>
 
                             <div className="reviews-section">
@@ -122,7 +122,8 @@ function App() {
 
 
 
-                     </div> <br /><br /><br />
+                     </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                     <h1> sou o japa q da o bum bum </h1>
                      <div className='sobre'><h1 className='tudo'>Tudo sobre nos</h1><br /><br />
 
                             <div className='texto1'><h3>
