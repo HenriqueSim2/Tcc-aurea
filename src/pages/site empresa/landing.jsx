@@ -11,6 +11,7 @@ function App() {
                      <Hero />
                      <Product />
 
+                     <br /><br /><br /><br /><br /><br />
 
                      <h2 className='ds'>PREÇOS</h2>
 
@@ -74,8 +75,7 @@ function App() {
                             </div>
                      </div>
 
-
-
+                     <br /><br /><br /><br /><br /><br />
 
                      <h3 >PRODUTOS</h3>
                      <div className='produtos0'>
@@ -96,6 +96,8 @@ function App() {
                                    de experiencia em informatica</p></div>
 
                      </div>
+
+                     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                      <div className='reviews'>
                             <h1>Reviews</h1>
                             <p>Essas são algumas das <br /> nossas reviews no <br />reclame aqui </p>

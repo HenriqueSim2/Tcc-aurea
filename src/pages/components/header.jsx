@@ -6,7 +6,7 @@ const Header = () => {
         <header>
         <nav>
             <div className="menu-icon">
-            <span>☰</span>
+            <span className='tracos'>☰</span>
             </div>
             <div className="logo">
             <img src="" alt="Tech.Inf" />

@@ -99,6 +99,7 @@ height: 40px;
 
   }
 
+
   .cardspart1{
 flex-direction:row ;
 display: flex;
@@ -114,7 +115,7 @@ margin-top: 20px;
     padding: 20px 0px;
     
       }
-
+    
 
    .texto2{
 margin-top: 30px;
@@ -246,12 +247,15 @@ border-radius: 60px;
   font-size: 2em;
 }
 .tudo{
- font-size: 80px;
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
- 
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 .imgg{
   height: 200px;
   width: 880px;
+  margin-right: 50px;
   border-radius: 30px;
 }
