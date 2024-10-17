@@ -1,15 +1,43 @@
 import React from 'react';
-import Header from '../components/header.jsx';
-import Hero from '../components/hero.jsx';
-import Product from '../components/produto.jsx';
+
 import './index.scss';
 
-function App() {
+export default function App() {
        return (
               <div className="App">
-                     <Header />
-                     <Hero />
-                     <Product />
+        <header>
+        <nav>
+            <div className="menu-icon">
+            <span className='tracos'>☰</span>
+            </div>
+            <div className="logo">
+            <img src="" alt="Tech.Inf" />
+            </div>
+        </nav>
+        </header>
+
+                     <div className="hero">
+      <h1>TENHA UM SITE DE DAR ORGULHO</h1>
+      <p>QUE TIPO DE SITE VOCÊ GOSTARIA DE TER?</p>
+      <div className="site-types">
+        <h2><img className='um' src="mercearia.png" alt="" />LOJA ONLINE</h2>
+        <h2><img className='um' src="calendario.png" alt="" />SERVIDOR</h2>
+        <h2><img className='um' src="pasta.png" alt="" />PORTFÓLIO</h2>
+        <h2><img className='um' src="restaurante.png" alt="" />RESTAURANTE</h2>
+      </div>
+      <a href="#" className="button-compre">COMPRE JÁ</a>
+    </div>
+
+    <div className="product">
+      <div className="product-info">
+        <img className='homem' src="imagem.png" alt="Pessoa com pacotes" />
+      </div>
+      <div className="description">
+        <h2>Tudo para deixar o seu site com sua cara</h2>
+        <p>Sua marca merece a melhor plataforma de ecommerce, com o menor esforço possível.</p>
+        <p>Na Info Tech, você encontra um ecossistema completo para começar ou expandir seu negócio.</p>
+      </div>
+    </div>
 
                      <br /><br /><br /><br /><br /><br /><br /><br />
                      <h2 className='ds'>PREÇOS</h2>
@@ -121,7 +149,6 @@ function App() {
 
 
                      </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                     <h1> sou o japa q da o bum bum </h1>
                      <div className='sobre'><h1 className='tudo'>Tudo sobre nos</h1><br /><br />
 
                             <div className='texto1'><h3>
@@ -145,5 +172,3 @@ function App() {
        );
 }
 
-
-export default App;
