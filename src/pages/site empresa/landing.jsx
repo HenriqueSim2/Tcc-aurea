@@ -12,12 +12,11 @@ function App() {
                      <Product />
 
                      <br /><br /><br /><br /><br /><br /><br /><br />
-
                      <h2 className='ds'>PREÇOS</h2>
 
                      <div className='cardscompleto'>
                             <div className='cardspart1'>
-                <div className='precos'>
+<div className='precos'>
                                           <div className='cards'>
                                                  <div><p className='texto'>loja online
                                                         <br />
@@ -97,7 +96,6 @@ function App() {
                             <p>Essas são algumas das <br /> nossas reviews de <br />clientes satisfeitos</p>
 
                             <div className="reviews-section">
-                                  
                                    <div className="reviews-container">
                                           <div className="review">
                                                  <h2><img className='pessoa' src="do-utilizador.png" alt="" />  Felipe</h2>
@@ -127,7 +125,7 @@ function App() {
                      <div className='sobre'><h1 className='tudo'>Tudo sobre nos</h1><br /><br />
 
                             <div className='texto1'><h3>
-                                   "Transforme suas ideias em uma presença digital com a info tech: designs inovadores e suporte contínuo."</h3>
+                                   "Transforme suas ideias em uma presença digital com a info tech: designs inovadores <br /> e suporte contínuo."</h3>
                                    <img className='imgg' src="th.webp" alt="img" />
 
                             </div>
