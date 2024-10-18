@@ -170,46 +170,46 @@ margin-top: 40px;
 
 .precos{
 
-background-color: rgb(96,111,125);
-border-radius: 30px;
-height: 200px;
-width: 300px;
-margin-left: 270px;
-
-}
-.precos2{
-  
   background-color: rgb(96,111,125);
   border-radius: 30px;
   height: 200px;
   width: 300px;
-  margin-left: 120px;
+  margin-left: 150px;
   
-    }
+  }
+  .precos2{
+    
+    background-color: rgb(96,111,125);
+    border-radius: 30px;
+    height: 200px;
+    width: 300px;
+    margin-left: 120px;
+    
+      }
   
-
-.texto{
-  display: flex ;
-  padding:12px ;
-  align-items: center;
-  justify-content: center;
-font-size:xx-large;
-}
-
-.button1{
-background-color: rgb(18,50,217);
-border-radius: 20px;
-margin-top: 20px;
-color: white;
-width: 150px;
-height: 50px;
-font-size: large;
-
-}
+      .texto{
+        display: flex ;
+        padding:12px ;
+        align-items: center;
+        justify-content: center;
+      font-size:xx-large;
+      }
+      
+      .button1{
+      background-color: rgb(18,50,217);
+      border-radius: 20px;
+      margin-top: 20px;
+      color: white;
+      width: 150px;
+      height: 50px;
+      font-size: large;
+      
+      }
 
 .cardscompleto {
   display: flex;
   flex-direction: column;
+  margin-right: 100px;
 }
 
 .cardspart1{
@@ -223,6 +223,7 @@ margin-top: 20px;
   display: flex;
   padding: 60px 0px;
 }
+  
   
 
  .texto2{
@@ -239,7 +240,7 @@ flex-direction: row;
  }
 
  .imgprodutos{
-width: 350px;
+width: 305px;
 height: 260px;
 margin-top: 40px;
 border-radius: 70px;
@@ -264,8 +265,7 @@ width: 30px;
 .fds{
   background-color: #163043 ;
 width: 1000px;
-height: 400px;
-margin-left: 150px;
+height: 390px;
 margin-top: 90px;
 border-radius: 60px;
 }
@@ -286,33 +286,33 @@ font-size:xxx-large;
 
 .sobre {
 
-.texto1 {
-display: flex;
-flex-direction: row;
-margin-left: 100px;
-font-size: 25px;
-.img {
-display: flex;
-width: 30px;
-height: 30px;
-}
-}
-.textop{
-margin-left: 180px;
-background-color: #163043 ;
-width: 900px;
-height: 250px;
-margin-top: 90px;
-border-radius: 60px;
-
-}
-
-.textops{
-font-size: xx-large;
-padding: 40px;
+  .texto1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  font-size: 25px;
+  .img {
+  display: flex;
+  width: 20px;
+  height: 30px;
   }
-
-}
+  }
+  .textop{
+  margin-left: 70px;
+  background-color: #163043 ;
+  width: 900px;
+  height: 250px;
+  margin-top: 90px;
+  border-radius: 60px;
+  
+  }
+  
+  .textops{
+  font-size: xx-large;
+  padding: 40px;
+    }
+  
+  }
 
 body {
 font-family: Arial, sans-serif;
@@ -375,5 +375,5 @@ height: 200px;
 width: 500px;
 margin-right: 50px;
 border-radius: 30px;
-margin-left: 300px
+margin-left: 200px
 }

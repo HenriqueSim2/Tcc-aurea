@@ -11,7 +11,7 @@ export default function App() {
             <span className='tracos'>☰</span>
             </div>
             <div className="logo">
-            <img src="" alt="Tech.Inf" />
+            <img src="" alt="x" />
             </div>
         </nav>
         </header>
@@ -48,7 +48,7 @@ export default function App() {
                                           <div className='cards'>
                                                  <div><p className='texto'>loja online
                                                         <br />
-                                                        R$***,**
+                                                        R$2000,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -57,9 +57,9 @@ export default function App() {
                                    </div>
                                    <div className='precos2'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>servidor
                                                         <br />
-                                                        R$***,**
+                                                        R$200,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -70,9 +70,9 @@ export default function App() {
                             <div className='cardspart2'>
                                    <div className='precos'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>cardapio
                                                         <br />
-                                                        R$***,**
+                                                        R$2500,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -84,9 +84,9 @@ export default function App() {
                                    </div>
                                    <div className='precos2'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>portifolio 
                                                         <br />
-                                                        R$***,**
+                                                        R$1500,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -160,13 +160,7 @@ export default function App() {
                                    A info tech cria sites personalizados com <br /> design  inovador e responsivo,  otimizados para 
                                    <br />motores de busca. Oferecemos suporte contínuo para <br /> garantir uma presença online impactante. <br /> Transforme suas ideias em realidade com a info tech.</p></div>
 
-
                      </div>
-
-
-
-
-
               </div>
 
        );
