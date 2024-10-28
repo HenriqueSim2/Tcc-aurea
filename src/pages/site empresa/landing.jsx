@@ -20,7 +20,7 @@ function App() {
                                           <div className='cards'>
                                                  <div><p className='texto'>loja online
                                                         <br />
-                                                        R$***,**
+                                                        R$2000,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -29,9 +29,9 @@ function App() {
                                    </div>
                                    <div className='precos2'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>servidor
                                                         <br />
-                                                        R$***,**
+                                                        R$200,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -42,9 +42,9 @@ function App() {
                             <div className='cardspart2'>
                                    <div className='precos'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>cardapio
                                                         <br />
-                                                        R$***,**
+                                                        R$2500,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -56,9 +56,9 @@ function App() {
                                    </div>
                                    <div className='precos2'>
                                           <div className='cards'>
-                                                 <div><p className='texto'>loja online
+                                                 <div><p className='texto'>portifolio 
                                                         <br />
-                                                        R$***,**
+                                                        R$1500,00
 
                                                  </p>
                                                         <button className='button1'>entre em contato</button>
@@ -75,7 +75,7 @@ function App() {
                             <div className='produtos'>
                                    <div><img className='imgprodutos' src="imgrestaurante.webp" alt="restaurante" />
                                           <p className='textof'>site de restaurante</p></div>
-                                   <div><img className='imgprodutos' src="portfolio2.webp" alt="" />
+                                   <div><img className='imgprodutos' src="images (1).jwffif" alt="" />
                                           <p className='textof'>portfolio pessoal</p>
                                    </div>
                                    <div><img className='imgprodutos' src="lojaonline.png" alt="" /><p className='textof'>
