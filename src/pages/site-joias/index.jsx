@@ -1,12 +1,13 @@
-import { useState } from 'react'
+import React from 'react';
+
 import './index.scss'
-
-import { Link } from 'react-router-dom';
-
-export default function SiteJoias() {
+function Joias() {
 
     return (
-        <div className='pagina-joias'>
+        <div className='Joias'>
+            <h1>ahshusadhujdsa </h1>
         </div>
     )
 }
+
+export default Joias;
