@@ -7,7 +7,7 @@
 .App {
   text-align: center;
   font-family: 'Arial', sans-serif;
-  background-color: #4D616E;
+  background-color: rgb(74,90,106);
   color: #fff;
 }
 
@@ -23,16 +23,18 @@ header {
   .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     img {
-      height: 0px;
-      padding: 10px ;
+      height: 1vh;
+      padding: 1vw ;
     }
   }
 
   .menu-icon {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #fff;
     font-size: 20px;
   }
@@ -50,6 +52,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .product-info img {
@@ -102,12 +105,13 @@ header {
 .site-types {
   display: flex;
   justify-content: center;
+  justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 
 .um {
-  width: 20px;
+  width: 2vw;
 }
 
 .site-types h2 {
@@ -164,21 +168,27 @@ header {
 
 
 .ds{
-margin-top: 40px;
-
+display: flex;
+  margin-top: 40px;
+align-items: center;
+justify-content: center;
 }
 
 .precos{
-
+display: flex;
+align-items: center;
+justify-content: center;
   background-color: rgb(96,111,125);
   border-radius: 30px;
   height: 200px;
   width: 300px;
-  margin-left: 150px;
+ margin-left: 120px;
   
   }
   .precos2{
-    
+    display: flex;
+align-items: center;
+justify-content: center;
     background-color: rgb(96,111,125);
     border-radius: 30px;
     height: 200px;
@@ -210,17 +220,25 @@ margin-top: 40px;
   display: flex;
   flex-direction: column;
   margin-right: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardspart1{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
 flex-direction:row ;
 display: flex;
 margin-top: 20px;
 }
 
 .cardspart2{
-  flex-direction:row ;
   display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction:row ;
+  
   padding: 60px 0px;
 }
   
@@ -258,16 +276,30 @@ padding: 80px;
 }
 
 .pessoa {
-width: 30px;
+width: 2vw;
 }
 
 
+
 .fds{
+  display:flex;
   background-color: #163043 ;
-width: 1000px;
-height: 390px;
+width: 70vw;
+height: 47vh;
 margin-top: 90px;
 border-radius: 60px;
+align-items: center;
+  justify-content: center;
+
+  
+}
+
+.produtos0{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
 }
 
 h2{
