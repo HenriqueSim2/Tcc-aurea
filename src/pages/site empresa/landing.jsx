@@ -103,7 +103,7 @@ export default function App() {
                             <div className='produtos'>
                                    <div><img className='imgprodutos' src="imgrestaurante.webp" alt="restaurante" />
                                           <p className='textof'>site de restaurante</p></div>
-                                   <div><img className='imgprodutos' src="images (1).jwffif" alt="" />
+                                   <div><img className='imgprodutos' src="portifolio.webp" alt="" />
                                           <p className='textof'>portfolio pessoal</p>
                                    </div>
                                    <div><img className='imgprodutos' src="lojaonline.png" alt="" /><p className='textof'>
@@ -126,19 +126,19 @@ export default function App() {
                             <div className="reviews-section">
                                    <div className="reviews-container">
                                           <div className="review">
-                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" />  Felipe</h2>
+                                                 <h2 className='h22'><img className='pessoa' src="do-utilizador.png" alt="" />  Felipe</h2>
                                                  <h3 className="stars">★★★★★</h3>
                                                  <p className='textoreview'>Esses caras são incríveis, fizeram meu site por um preço acessível e em menos de 3 meses!</p>
                                           </div>
 
                                           <div className="review">
-                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" />  Matheus</h2>
+                                                 <h2 className='h22'><img className='pessoa' src="do-utilizador.png" alt="" />  Matheus</h2>
                                                  <h3 className="stars">★★★★★</h3>
                                                  <p className='textoreview'>Melhor empresa já feita, os caras conseguem entregar um produto muito maior que a expectativa e rápido ainda!</p>
                                           </div>
 
                                           <div className="review">
-                                                 <h2><img className='pessoa' src="do-utilizador.png" alt="" /> Henrique</h2>
+                                                 <h2 className='h22'><img className='pessoa' src="do-utilizador.png" alt="" /> Henrique</h2>
                                                  <h3 className="stars">★★★★★</h3>
                                                  <p className='textoreview'>Meu site deu uma demorada, porém quando chegou foi a coisa mais bonita que eu já vi na minha vida!</p>
                                           </div>
