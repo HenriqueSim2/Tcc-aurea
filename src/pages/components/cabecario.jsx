@@ -7,10 +7,9 @@ export default function Cabecario() {
 <header>
 <nav>
     <div className="menu-icon">
-    <span className='tracos'>☰</span>
     </div>
     <div className="logo">
-    <img src="logoss.png" alt="logo" />
+    <img className="logotech" src="logoss.png" alt="logo" />
     </div>
 </nav>
 </header>
