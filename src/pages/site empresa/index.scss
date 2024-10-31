@@ -11,36 +11,6 @@
   color: #fff;
 }
 
-header {
-  nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #1b1e2f;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      height: 1vh;
-      padding: 1vw ;
-    }
-  }
-
-  .menu-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-  }
-}
-
-
 .product {
   display: flex;
   justify-content: space-around;

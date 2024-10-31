@@ -1,21 +1,16 @@
 import React from 'react';
+import Rodape from '../components/rodape';
 
 import './index.scss';
+import { Link } from 'react-router-dom';
+import Cabecario from '../components/cabecario';
 
 export default function App() {
        return (
-              <div className="App">
-        <header>
-        <nav>
-            <div className="menu-icon">
-            <span className='tracos'>☰</span>
-            </div>
-            <div className="logo">
-            <img src="" alt="x" />
-            </div>
-        </nav>
-        </header>
-
+<div className="App">
+       <div className='cabecario'>
+              <Cabecario />
+       </div>
                      <div className="hero">
       <h1>TENHA UM SITE DE DAR ORGULHO</h1>
       <p>QUE TIPO DE SITE VOCÊ GOSTARIA DE TER?</p>
@@ -25,7 +20,7 @@ export default function App() {
         <h2><img className='um' src="pasta.png" alt="" />PORTFÓLIO</h2>
         <h2><img className='um' src="restaurante.png" alt="" />RESTAURANTE</h2>
       </div>
-      <a href="#" className="button-compre">COMPRE JÁ</a>
+      <Link href="#" className="button-compre">COMPRE JÁ</Link>
     </div>
 
     <div className="product">
@@ -44,7 +39,7 @@ export default function App() {
 
                      <div className='cardscompleto'>
                             <div className='cardspart1'>
-<div className='precos'>
+                                   <div className='precos'>
                                           <div className='cards'>
                                                  <div><p className='texto'>loja online
                                                         <br />
@@ -159,9 +154,12 @@ export default function App() {
                             <div className='textop' ><p className='textops'>
                                    A info tech cria sites personalizados com <br /> design  inovador e responsivo,  otimizados para 
                                    <br />motores de busca. Oferecemos suporte contínuo para <br /> garantir uma presença online impactante. <br /> Transforme suas ideias em realidade com a info tech.</p></div>
+                     </div> <br />
+                            <div className='rodape'>
+                                   <Rodape />
+                            </div>
 
-                     </div>
-              </div>
+</div>
 
        );
 }
