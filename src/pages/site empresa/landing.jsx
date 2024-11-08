@@ -1,5 +1,6 @@
 import React from 'react';
 import Rodape from '../components/rodape';
+import Botao from '../components/botaocompra';
 
 import './index.scss';
 import { Link } from 'react-router-dom';
@@ -46,7 +47,7 @@ export default function App() {
                                                         R$2000,00
 
                                                  </p>
-                                                        <button className='button1'>entre em contato</button>
+                                                        <Botao />
                                                  </div>
                                           </div>
                                    </div>
@@ -57,7 +58,7 @@ export default function App() {
                                                         R$200,00
 
                                                  </p>
-                                                        <button className='button1'>entre em contato</button>
+                                                        <Botao />
                                                  </div>
                                           </div>
                                    </div>
@@ -70,11 +71,8 @@ export default function App() {
                                                         R$2500,00
 
                                                  </p>
-                                                        <button className='button1'>entre em contato</button>
+                                                 <Botao />                                                 
                                                  </div>
-
-
-
                                           </div>
                                    </div>
                                    <div className='precos2'>
@@ -84,7 +82,7 @@ export default function App() {
                                                         R$1500,00
 
                                                  </p>
-                                                        <button className='button1'>entre em contato</button>
+                                                 <Botao />
                                                  </div>
                                           </div>
                                    </div>
